@@ -1,0 +1,195 @@
+/***** Base Styles *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+
+}
+
+#specials, #reviews, #contact {
+  height: 210px;
+}
+
+
+/***** Grid *****/
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+  /* display: inline-block; */
+
+}
+
+.third-width {
+  width: 360px;
+  float: left;
+  padding: 20px;
+}
+
+
+/***** Header *****/
+
+header {
+  height: 300px;
+  width: 1200px;
+  /* background: url('../img/green-beans.png');
+  background-size: cover; */
+
+}
+
+header h2 {
+  text-transform: uppercase;
+  padding: 30px 0 40px 0;
+  width: 300px;
+  margin: 5px 0 5px 20px;
+
+}
+
+header h2 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  text-align: center;
+}
+
+nav ul {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 30px;
+  width: 630px;
+  /* max-width: 620px; */
+}
+
+nav ul li {
+  color: #77a466;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 30px;
+
+
+}
+
+header img {
+  width: 1160px;
+  height:300px;
+  margin: 0 20px 30px 20px;
+  border: solid #77a466;
+}
+
+/***** About *****/
+
+#about {
+  margin: 145px 20px 0 20px;
+  max-width: 1160px;
+}
+
+#about h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/***** Specials *****/
+
+#specials {
+  border: .5px solid black;
+  border-left: 0;
+  /* height: 170px; */
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+#specials p:first-child {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#menu {
+  font-size: 16px;
+  color: #77a466;
+  line-height: 40px;
+
+}
+
+/***** Reviews *****/
+
+#reviews {
+  border: .5px solid black;
+  border-left: 0;
+  /* height: 170px; */
+}
+
+#reviews p:first-child {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#reviews p:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+/***** Contact *****/
+
+#contact {
+    border: .5px solid black;
+    border-left: 0;
+    border-right: 0;
+    margin-right: 20px;
+    padding-right: 0;
+}
+
+#contact p:first-child {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#contact p:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-top: 10px;
+}
+/***** Footer *****/
+
+#fresh {
+  clear: both;
+  height: 60px;
+  width: 1200px;;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+#fresh span {
+  font-family: 'Pacifico', cursive;
+  color: #77a466;
+  text-transform: none;
+  }
